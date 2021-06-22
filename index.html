@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/1547a35b44.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src/styles.css" />
+    <title>Layout</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <form class="search-form" id="search-form">
+            <input
+              type="text"
+              id="city-search"
+              placeholder="Enter your city"
+              autocomplete="on"
+            />
+            <input type="submit" value="Search" />
+          </form>
+        </div>
+        <div class="col-6">
+          <div class="headings" id="current-city">
+            <h1 id="current-city-now">Granada</h1>
+            <h2 id="current-temp">
+              25 ºC
+              <p id="degrees-link">ºC</p>
+            </h2>
+            <h3 id="current-time-now">10.45</h3>
+            <div class="descriptions">
+              <strong>
+                <ul id="description">
+                  Partly Cloudy
+                </ul>
+                <ul>
+                  Humidity:
+                  <span id="humidity"></span>
+                  %
+                </ul>
+                <ul>
+                  Wind:
+                  <span id="wind"></span>
+                  km/h
+                </ul></strong
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col day">
+        Monday<br /><br /><i class="fas fa-sun fa-3x"></i><br /><br />19ºC
+      </div>
+      <div class="col day">
+        Tuesday<br /><br /><i class="fas fa-sun fa-3x"></i><br /><br />19ºC
+      </div>
+      <div class="col day">
+        Wednesday<br /><br /><i class="fas fa-sun fa-3x"></i><br /><br />19ºC
+      </div>
+      <div class="col day">
+        Thursday<br /><br /><i class="fas fa-sun fa-3x"></i><br /><br />19ºC
+      </div>
+      <div class="col day">
+        Friday<br /><br /><i class="fas fa-sun fa-3x"></i><br /><br />19ºC
+      </div>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>

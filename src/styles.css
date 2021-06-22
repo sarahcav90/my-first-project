@@ -1,0 +1,36 @@
+body {
+  /* Background pattern from Toptal Subtle Patterns */
+  background-image: url("https://miro.medium.com/max/5120/1*GsImz-edoeuqCMfKxDus0w.jpeg");
+  height: 400px;
+  width: 100%;
+}
+.headings {
+  color: rgba(255, 255, 255, 0.918);
+  font-family: "Ubuntu", sans-serif;
+  font-size: 15px;
+}
+.day {
+  color: rgba(255, 255, 255, 0.918);
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  padding-top: 80px;
+  font-size: 15px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  color: rgba(255, 255, 255, 0.918);
+}
+.degrees {
+  border: 1px solid black;
+  width: 70px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.search-form {
+  margin-top: 30px;
+  text-align: center;
+}
