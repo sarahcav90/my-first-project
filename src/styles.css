@@ -24,7 +24,7 @@ ul {
   display: flex;
   color: rgba(255, 255, 255, 0.918);
 }
-.degrees {
+.degrees-link {
   border: 1px solid black;
   width: 70px;
   overflow: hidden;
