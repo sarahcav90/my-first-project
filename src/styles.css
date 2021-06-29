@@ -1,3 +1,6 @@
+.weather-app {
+  max-width: 600px;
+}
 body {
   /* Background pattern from Toptal Subtle Patterns */
   background-image: url("https://miro.medium.com/max/5120/1*GsImz-edoeuqCMfKxDus0w.jpeg");
