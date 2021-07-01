@@ -20,73 +20,77 @@
   </head>
 
   <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-6">
-          <form class="search-form" id="search-form">
-            <input
-              type="text"
-              id="city-search"
-              placeholder="Enter your city"
-              autocomplete="on"
-            />
-            <input type="submit" value="Search" />
-          </form>
-        </div>
-        <div class="col-6">
-          <div class="headings" id="current-city">
-            <h1 id="current-city-now">Granada</h1>
-            <h2 id="current-temp">
-              25 ºC
-              <p id="degrees-link">ºC</p>
-            </h2>
-            <h3 id="current-time-now">10.45</h3>
-            <div class="descriptions">
-              <strong>
-                <ul id="description">
-                  Partly Cloudy
-                </ul>
-                <ul>
-                  Humidity:
-                  <span id="humidity"></span>
-                  %
-                </ul>
-                <ul>
-                  Wind:
-                  <span id="wind"></span>
-                  km/h
-                </ul></strong
-              >
+    <div class="weather-app">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <form class="search-form" id="search-form">
+              <input
+                type="text"
+                id="city-search"
+                placeholder="Enter your city"
+                autocomplete="on"
+              />
+              <input type="submit" value="Search" />
+            </form>
+          </div>
+          <div class="col-6">
+            <div class="headings" id="current-city">
+              <h1 id="city">Granada</h1>
+              <h2 id="current-temp">
+                25
+                <span class="units"
+                  ><a href="#" id="celsius-link" class="active">°C</a> |
+                  <a href="#" id="fahrenheit-link">°F</a></span
+                >
+              </h2>
+              <h3 id="current-time-now">10.45</h3>
+              <div class="descriptions">
+                <strong>
+                  <ul id="description">
+                    Partly Cloudy
+                  </ul>
+                  <ul>
+                    Humidity:
+                    <span id="humidity"></span>
+                    %
+                  </ul>
+                  <ul>
+                    Wind:
+                    <span id="wind"></span>
+                    km/h
+                  </ul></strong
+                >
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="row">
-      <div class="col day">
-        Monday<br /><br /><i class="fas fa-sun fa-3x"></i><br /><br />19ºC
+      <div class="row">
+        <div class="col day">
+          Monday<br /><br /><i class="fas fa-sun fa-3x"></i><br /><br />19ºC
+        </div>
+        <div class="col day">
+          Tuesday<br /><br /><i class="fas fa-sun fa-3x"></i><br /><br />19ºC
+        </div>
+        <div class="col day">
+          Wednesday<br /><br /><i class="fas fa-sun fa-3x"></i><br /><br />19ºC
+        </div>
+        <div class="col day">
+          Thursday<br /><br /><i class="fas fa-sun fa-3x"></i><br /><br />19ºC
+        </div>
+        <div class="col day">
+          Friday<br /><br /><i class="fas fa-sun fa-3x"></i><br /><br />19ºC
+        </div>
       </div>
-      <div class="col day">
-        Tuesday<br /><br /><i class="fas fa-sun fa-3x"></i><br /><br />19ºC
-      </div>
-      <div class="col day">
-        Wednesday<br /><br /><i class="fas fa-sun fa-3x"></i><br /><br />19ºC
-      </div>
-      <div class="col day">
-        Thursday<br /><br /><i class="fas fa-sun fa-3x"></i><br /><br />19ºC
-      </div>
-      <div class="col day">
-        Friday<br /><br /><i class="fas fa-sun fa-3x"></i><br /><br />19ºC
-      </div>
+      <small>
+        <a href="https://github.com/sarahcav90/my-first-project" target="_blank"
+          >Open-source code</a
+        >
+        by Sarah Cavanagh
+      </small>
     </div>
-
-    <small>
-      <a href="https://github.com/sarahcav90/my-first-project" target="_blank"
-        >Open-source code</a
-      >
-      by Sarah Cavanagh
-    </small>
 
     <script src="src/index.js"></script>
   </body>
