@@ -1,16 +1,20 @@
-body {
-  /* Background pattern from Toptal Subtle Patterns */
+.weather-app {
+  max-width: 600px;
+  padding: 20px;
+  border: 1px solid #5f5b5b;
+  border-radius: 5px;
+  margin: 0 auto;
   background-image: url("https://miro.medium.com/max/5120/1*GsImz-edoeuqCMfKxDus0w.jpeg");
-  height: 400px;
-  width: 100%;
+  background-size: cover;
 }
+
 .headings {
-  color: rgba(255, 255, 255, 0.918);
+  color: rgba(67, 55, 68, 0.918);
   font-family: "Ubuntu", sans-serif;
   font-size: 15px;
 }
 .day {
-  color: rgba(255, 255, 255, 0.918);
+  color: rgba(67, 55, 68, 0.918);
   text-align: center;
   font-family: "Ubuntu", sans-serif;
   padding-top: 80px;
@@ -22,7 +26,7 @@ ul {
   margin: 0;
   padding: 0;
   display: flex;
-  color: rgba(255, 255, 255, 0.918);
+  color: rgba(67, 55, 68, 0.918);
 }
 .degrees-link {
   border: 1px solid black;
@@ -34,10 +38,10 @@ ul {
   margin-top: 30px;
   text-align: center;
 }
-
-small {
-  color: rgba(255, 255, 255, 0.918);
-  border-radius: 0px;
-  margin: 0 auto;
+.units {
+  font-size: small;
+  position: relative;
+  top: -10px;
   text-decoration: none;
+  color: rgba(67, 55, 68, 0.918);
 }
