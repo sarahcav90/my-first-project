@@ -31,25 +31,17 @@
                 placeholder="Enter your city"
                 autocomplete="on"
               />
-              <input type="submit" value="Search" />
+              <input type="submit" value="Search" class="button" />
             </form>
           </div>
           <div class="col-6">
             <div class="headings" id="current-city">
-              <h1 id="city">Granada</h1>
-              <h2 id="current-temp">
-                25
-                <span class="units"
-                  ><a href="#" id="celsius-link" class="active">°C</a> |
-                  <a href="#" id="fahrenheit-link">°F</a></span
-                >
-              </h2>
-              <h3 id="current-time-now">10.45</h3>
+              <h1 id="city"></h1>
+              <h2><span id="temperature"></span> º</h2>
+              <h3>Last updated: <span id="date"></span></h3>
               <div class="descriptions">
                 <strong>
-                  <ul id="description">
-                    Partly Cloudy
-                  </ul>
+                  <ul id="description"></ul>
                   <ul>
                     Humidity:
                     <span id="humidity"></span>
