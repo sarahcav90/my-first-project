@@ -1,10 +1,10 @@
 .weather-app {
   max-width: 600px;
   padding: 20px;
-  border: 1px solid #5f5b5b;
+  border: 1px solid #dadde1;
   border-radius: 5px;
   margin: 0 auto;
-  background-image: url("https://miro.medium.com/max/5120/1*GsImz-edoeuqCMfKxDus0w.jpeg");
+  background-image: url("https://img5.goodfon.com/original/1366x768/1/8a/cloudy-sky-clouds-sky.jpg");
   background-size: cover;
 }
 
