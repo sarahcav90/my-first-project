@@ -62,3 +62,7 @@ ul {
   text-decoration: none;
   color: rgba(67, 55, 68, 0.918);
 }
+
+.last {
+  font-size: small;
+}
