@@ -42,6 +42,22 @@ function displayForecast() {
       </div>
   </div>;
   `;
+  forecastHTML =
+    forecastHTML +
+    `
+    <div class="col-2">
+      Mon
+      <img
+        src="https://openweathermap.org/img/wn/50d@2x.png"
+        alt=""
+        width="45"
+      />
+      <div class="forecast-temperature">
+        <span class="forecast-temperature-max"> 18º </span>
+        <span class="forecast-temperature-max"> 20º </span>
+      </div>
+  </div>;
+  `;
   forecastHTML = forecastHTML + `</div>`;
   forecastElement.innerHTML = forecastHTML;
 }
