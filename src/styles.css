@@ -13,6 +13,7 @@
   font-family: "Ubuntu", sans-serif;
   font-size: 15px;
   text-transform: capitalize;
+  text-align: center;
 }
 .day {
   color: rgba(67, 55, 68, 0.918);
@@ -72,4 +73,7 @@ ul {
 }
 .min-temp {
   color: #797979ce;
+}
+.descriptions {
+  text-align: center;
 }
