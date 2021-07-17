@@ -36,7 +36,7 @@ ul {
   white-space: nowrap;
 }
 .search-form {
-  margin-top: 30px;
+  margin-top: 80px;
   text-align: center;
   border: none;
   border-radius: 30px;
@@ -52,8 +52,8 @@ ul {
 }
 
 .button:hover {
-  background-color: #fffb00;
-  color: rgba(67, 55, 68, 0.918);
+  background-color: #ec6e4c;
+  color: #212529;
 }
 .units {
   font-size: small;
